@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 425 114" style="enable-background:new 0 0 425 114;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+    
+    
+    <defs>
+        <style>
+            #bottom_x5F_line_1_, #top_x5F_line_1_{
+		stroke-dasharray:397;
+		stroke-dashoffset:0;
+		
+		-webkit-animation: line 2s linear forwards;
+				-o-animation: line 2s linear forwards;
+				-moz-animation: line 2s linear forwards;
+				animation: line 2s linear forwards;
+
+	}
+	@-webkit-keyframes line{
+				from{
+					stroke-dashoffset:397;
+				}
+				to{
+					stroke-dashoffset:300;
+				}
+			}
+            
+            
+            #a_x5F_one,#a_x5F_two,#a_x5F_three,#b_x5F_one,#b_x5F_two,#b_x5F_three,#o_x5F_one,#o_x5F_two,#u_x5F_one,#u_x5F_two,#t_x5F_one,#t_x5F_two,#t_x5F_three,#m_x5F_one,#m_x5F_two,#m_x5F_three,#m_x5F_four,#e_x5F_two,#e_x5F_one,#e_x5F_three{
+			
+			-webkit-animation: text 2s linear forwards;
+            -o-animation: text 2s linear forwards;
+            -moz-animation: text 2s linear forwards;
+            animation: text 2s linear forwards;
+			}
+            
+            @-webkit-keyframes text{
+				
+				to{
+					stroke-dashoffset:0;
+				}
+			}
+            
+            #a_x5F_one{
+			stroke-dasharray:130;
+            stroke-dashoffset:130;
+			}
+			#a_x5F_two{
+			stroke-dasharray:20;
+            stroke-dashoffset:20;
+			}
+            #a_x5F_three{
+			stroke-dasharray:30;
+            stroke-dashoffset:30;
+			}
+            
+            #b_x5F_one{
+            stroke-dasharray:150;
+            stroke-dashoffset:150;
+            }
+            #b_x5F_two{
+            stroke-dasharray:50;
+            stroke-dashoffset:50;
+            }
+            #b_x5F_three{
+            stroke-dasharray:50;
+            stroke-dashoffset:50;
+            }
+            #o_x5F_one{
+            stroke-dasharray:170;
+            stroke-dashoffset:170;
+            }
+
+            #o_x5F_two{
+            stroke-dasharray:150;
+            stroke-dashoffset:150;
+            }
+            #u_x5F_one{
+            stroke-dasharray:150;
+            stroke-dashoffset:150;
+            }
+            #u_x5F_two{
+            stroke-dasharray:150;
+            stroke-dashoffset:150;
+            }
+            #t_x5F_one{
+            stroke-dasharray:50;
+            stroke-dashoffset:50;
+            }
+            #t_x5F_two{
+            stroke-dasharray:80;
+            stroke-dashoffset:80;
+            }
+            #t_x5F_three{
+            stroke-dasharray:80;
+            stroke-dashoffset:80;
+            }
+            #m_x5F_four{
+            stroke-dasharray:60;
+            stroke-dashoffset:60;
+            }
+            #m_x5F_three{
+            stroke-dasharray:70;
+            stroke-dashoffset:70;
+            }
+            #m_x5F_two{
+            stroke-dasharray:130;
+            stroke-dashoffset:130;
+            }
+            #m_x5F_one{
+            stroke-dasharray:60;
+            stroke-dashoffset:60;
+            }
+            #e_x5F_two{
+            stroke-dasharray:110;
+            stroke-dashoffset:110;
+            }
+            #e_x5F_one{
+            stroke-dasharray:40;
+            stroke-dashoffset:40;
+            }
+            #e_x5F_three{
+            stroke-dasharray:40;
+            stroke-dashoffset:40;
+            }
+        </style>
+    </defs>
+    
+    
+<line id="bottom_x5F_line_1_" class="st0" x1="5.2" y1="4.4" x2="419.8" y2="4.4"/>
+<line id="top_x5F_line_1_" class="st0" x1="419.8" y1="109.6" x2="5.2" y2="109.6"/>
+<g id="A">
+	<polyline id="a_x5F_one" class="st1" points="21.3,83.8 43.4,29.9 65.6,83.4 	"/>
+	<polyline id="a_x5F_two" class="st1" points="43.4,57.4 47.8,67.8 38.9,67.8 	"/>
+	<polyline id="a_x5F_three" class="st1" points="33.1,84.1 35.2,78.6 51.9,78.6 54.2,84 	"/>
+</g>
+<g id="B">
+	<path id="b_x5F_one" class="st1" d="M75.3,84.7l0.2-53.4h21.3c18.5,0.7,17.4,22.1,11.7,26.5c6.9,4.8,5.5,24.1-9.4,26.1H86.1"/>
+	<path id="b_x5F_two" class="st1" d="M85.4,41.5h10.1c8.5,0,6.2,10.8,0.4,10.8c-5.9,0-3.7,0-3.7,0"/>
+	<path id="b_x5F_three" class="st1" d="M85.4,63.1h10.1c8.5,0,6.2,10.8,0.4,10.8c-5.9,0-3.7,0-3.7,0"/>
+</g>
+<g id="O">
+	<path id="o_x5F_one" class="st1" d="M177.2,65.5c-3.3,12.2-14.5,21.2-27.6,21.2c-15.8,0-28.6-12.8-28.6-28.6s12.8-28.6,28.6-28.6
+		c13.1,0,24.1,8.8,27.5,20.8"/>
+	<path id="o_x5F_two" class="st1" d="M134.9,50.8c2.6-5.7,8.2-9.6,14.9-9.6c9,0,16.3,7.3,16.3,16.3s-7.3,16.3-16.3,16.3
+		c-6.3,0-11.8-3.6-14.6-9"/>
+</g>
+<g id="U">
+	<path id="u_x5F_one" class="st1" d="M227.4,31.1v36.1c-0.7,21.7-36.5,26.1-39.1,0.1V31.1"/>
+	<path id="u_x5F_two" class="st1" d="M216.5,32.4v35.1c0,10.4-16.9,12.3-17.5,0V32.4"/>
+</g>
+<g id="T">
+	<line id="t_x5F_one" class="st1" x1="237.1" y1="31.4" x2="274.9" y2="31.4"/>
+	<polyline id="t_x5F_two" class="st1" points="237.1,42.1 250.6,42.1 250.5,85.3 	"/>
+	<polyline id="t_x5F_three" class="st1" points="261.2,85.3 261.2,42.1 274.9,42.1 	"/>
+</g>
+<g id="M">
+	<line id="m_x5F_four" class="st1" x1="306.1" y1="85.3" x2="306" y2="30.7"/>
+	<polyline id="m_x5F_three" class="st1" points="350.1,30.4 333,55 316,30.4 	"/>
+	<polyline id="m_x5F_two" class="st1" points="317,85 317,51.9 332.9,74 348.9,51.9 349.3,85.3 	"/>
+	<line id="m_x5F_one" class="st1" x1="360" y1="30.4" x2="360.2" y2="85.3"/>
+</g>
+<g id="E">
+	<polyline id="e_x5F_two" class="st1" points="401.7,30.7 373.7,30.7 373.7,84.6 401.7,84.6 	"/>
+	<polyline id="e_x5F_one" class="st1" points="401.7,73.9 384.5,73.9 384.5,63.1 396.9,63.1 	"/>
+	<polyline id="e_x5F_three" class="st1" points="396.2,52.3 384.5,52.3 384.5,42.1 401.7,42.1 	"/>
+</g>
+</svg>

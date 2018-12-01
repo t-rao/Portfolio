@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>I'm 3Vikram</title>
+	<link rel="shortcut icon" type="image/png" href="images/ficon_16.gif"/>
+	<link rel="icon" href="http://im3vikram.com/fevicon/ficon_16.gif" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500|Roboto:300i,400" rel="stylesheet"> 
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+	<header>
+		<div class="warpper">
+			 <h1 id="logo" class="floatL">I'm <span>3</span>Vikram</h1>
+			<nav class="floatR">
+				<div class="overlay" id="myNav">
+				<span href="javascript:void(0)" id="closebtn" class="icon" onclick="closeNav()"> &times;</span>
+
+				<ul class="overlay-content">
+					<li class="nav_mu"><a href="index.html" class="nav_mu">Home</a></li>
+					<li class="nav_mu"><a href="about.html" >About</a></li>
+					<li class="nav_mu"><a href="skills.html" >Skills</a></li>
+					<!--<li class="nav_mu"><a href="project.html" >Project</a></li>-->
+					<li class="nav_mu"><a href="contact.html"  >Contact</a></li>
+				</ul>
+			</div>	
+				<span class="icon"><a href="javascript:void(0);" onClick="openNav()">&#9776;</a></span>
+			</nav>
+		</div>
+	</header>
+	<section class="inner_content cont_container">
+		<div class="warpper_inner">
+			<article class="chero_img contact_bg">
+				<object id="inner_object">
+					<embed src="svg/contact.svg">
+				</object>
+			</article>
+			<article class="cont_left">
+				<div id="cont_con" class="cont_warpper">
+					<form name="sentMessage" id="contactForm" novalidate action="mail/contact_me.php" method="post">
+						<div id="form_inner">
+							<ul>
+								<li><input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name."></li>
+								<li><input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address."></li>
+							</ul>
+							<ul class="clear">
+								<li>
+									<textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+								</li>
+								<li id="send_btn">
+								<div id="success"></div>
+								<button id="send_butt" class="submit" onClick="Confirm(this.form)" type="submit" class="btn btn-xl">Send</button></li>
+							</ul>
+						</div>
+					</form>
+					<ul id="social_block">
+						<li class="social_sub">
+						<h3>Email</h3>
+						<span class="lin_soci"></span>
+						<p>trivikram244@gmail.com</p>
+						</li>
+						<li class="social_sub">
+							<h3>Phone</h3>
+							<span class="lin_soci"></span>
+							<p>+91-725-991-2669</p>
+						</li>
+						<li class="social_sub">
+							<!--<h3>Social</h3>
+							<span class="lin_soci"></span>
+							<ul>
+								<li class="floatL social_ico"><a href="https://www.facebook.com/TrivkramRao"><img src="images/fb.png" alt="fb"></a></li>
+								<li class="floatL social_ico"><a href=""><img src="images/in.png" alt="insto"></a></li>
+								<li class="floatL social_ico"><a><img src="images/be.png" alt="link"></a></li>
+							</ul>-->
+						</li>
+					</ul>
+					
+				</div>
+			</article>
+			
+		</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+<footer>
+		<div class="wrapper_foo">
+		<div id="container_foot">
+		<div class="floatL">
+			<p><a id="footer_logo">I'm <span>3</span>vikram</a> &copy; 2016</p>
+		</div>
+		<ul class="foo_sns floatR">
+			<li>
+				<a href="https://www.facebook.com/TrivkramRao" target="_blank">
+					<img src="images/fb.png" alt="facebook" width="25">
+				</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/trivikram-rao-muthakani-564a58106/" target="_blank">
+					<img  src="images/in.png" alt="linkdine" width="25">
+				</a>
+			</li>
+			<li>
+				<a href="https://www.behance.net/Trivikram244" target="_blank">
+					<img src="images/be.png" alt="twitter" width="25">
+				</a>
+			</li>
+		</ul>
+		</div>
+		</div>
+	</footer>
+	<script src="js/contact_me.js"></script>
+	<script>
+		function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+	</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+</body>
+</html>
