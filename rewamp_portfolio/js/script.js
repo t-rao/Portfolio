@@ -5,6 +5,6 @@ $(window).on("scroll", function() {
     } else {
         //remove the background property so it comes transparent again (defined in your css)
        $(".header").removeClass("active");
-       $(".logo img").attr("src", "images/logo_white.png");
+       $(".logo img").attr("src", "images/logo_white_text.png");
     }
 });
