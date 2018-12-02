@@ -106,7 +106,18 @@ header li {
     height: 80px;
     background-color: #dedede;
   }
-
+  .hero_text{
+    float: left;
+    width: 50%;
+  }
+  .logo_main{
+    float: right;
+    width: 50%;
+    text-align: center;
+  }
+.logo_main img{
+  width: 30%;
+}
 @media screen and (max-width:500px){
 
 }
