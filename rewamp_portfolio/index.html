@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -15,23 +16,26 @@
     <div class="header_wrapper">
       <h1 class="logo"><img src="images/logo_white_text.png" alt=""></h1>
       <nav>
-        <ul class="menu">
-          <li><a href="">Home</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
+        <div class="overlay" id="myNav">
+          <span href="javascript:void(0)" id="closebtn" class="icon" onclick="closeNav()"> ×</span>
+          <ul class="menu overlay-content">
+            <li class="nav_mu "><a href="">Home</a></li>
+            <li class="nav_mu "><a href="">Services</a></li>
+            <li class="nav_mu "><a href="">Projects</a></li>
+            <li class="nav_mu "><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <span class="icon"><a href="javascript:void(0);" onclick="openNav()">☰</a></span>
       </nav>
     </div>
   </header>
   <section class="hero_image">
-    <div class="hero_image_inner">
-      <div class="hero_text">
+    <div class="hero_image_inner container">
+      <div class="hero_text col-12">
         <h1>UI / UX Designer</h1>
-        <p></p>
         <h4>Freelancer / Corporate Trainer</h4>
       </div>
-      <div class="logo_main">
+      <div class="logo_main col-12">
         <img src="images/logo2.png" alt="">
       </div>
     </div>
@@ -39,36 +43,87 @@
   <section class="services">
     <div class="container">
       <div class="card-deck">
-        <div class="card">
+        <div class="card ">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <i class="fas fa-drafting-compass fa-5x"></i>
+            <h5 class="card-title text-sm-center">UI/UX Designs</h5>
+            <p class="card-text">Delivering A-Z user interface solutions for Desktop/Mobile (UI/UX) designs, and visual design services.</p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
           </div>
         </div>
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <i class="fas fa-drafting-compass fa-5x"></i>
+            <h5 class="card-title">Corporate Training</h5>
+            <p class="card-text">Effective corporate training program helps the employees of an organization achieve their professional goals more successfully.</p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
           </div>
         </div>
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <i class="fas fa-drafting-compass fa-5x"></i>
+            <h5 class="card-title">Logo Design</h5>
+            <p class="card-text">Custom labe and logo designs that can meets all your specific business needs.</p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
           </div>
         </div>
       </div>
     </div>
   </section>
   <section class="about">
-    <div class="container"><h2>About</h2></div>
+    <div class="container">
+      <h2>About</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <h3>Hi! I’m Trivikram</h3>
+          <p>I'm 28 years old UI/UX designer and developer from India. I have completed bachelors in engineering on Electrical and electronic engineering 2012. Later I did a course in Web design and Development, after completing the course I started working
+            as a Web designer / Instructor for a Japanese form IBJ. </p>
+          <p>In my 3 years of professional life, I have been worked as Sr. Graphic designer and main responsibilities are to design all types visual design like Websites, posters, pamphlets, Apps etc and also front-end development. Apart from design, from
+            2013 to 2016 I have been taking corporate training for both in India and overseas companies like Rakuten, Indegene.</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="images/profile.png" class="img-fluid" alt="profile">
+        </div>
+      </div>
+    </div>
   </section>
   <section class="projects">
     <div class="container ">
       <h2>Projects</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <p>My belief is that communication is the best way to create Best Projects.</p>
+          <button class="btn btn-primary"> All Projects</button>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="images/pic320.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/pic320.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/pic320.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <section class="contact">
@@ -78,7 +133,8 @@
   </section>
   <footer>
     <section class="container">
-      <h2>Footer</h2>
+      <div><img src="images/logo_white.png" alt="logo"></div>
+      <p>@2018. Designed and coded by Trivikram Rao</p>
     </section>
   </footer>
   <script src="js/jquery-1.11.3.min.js"></script>

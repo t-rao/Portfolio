@@ -18,6 +18,8 @@ header{
     height: auto;
     background-color:transparent;
     line-height: 40px;
+    height: 60px;
+    padding-top: 10px;
 }
 .logo img{
   width: 60%;
@@ -30,15 +32,15 @@ header{
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 
 }
-.header.active a{
+/* .header.active a{
   color: black;
-}
+} */
 .header_wrapper{
   width: 100%;
   max-width: 1080px;
   margin: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
 }
 .hero_image{
     background-image: url(../images/bg.jpg);
@@ -66,9 +68,7 @@ header h1{
  text-decoration: none;
 }
 
-header li {
-    float: left;
-  }
+
   header li a {
     /* padding: 10px 20px; */
     padding-left: 20px;
@@ -76,11 +76,7 @@ header li {
     text-decoration: none;
     color: white;
   }
-  header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
+
   header .menu-icon {
     display: none;
   }
@@ -104,9 +100,10 @@ header li {
   }
   footer{
     height: 80px;
-    background-color: #dedede;
+    background-color: #5E5E5E;
+    color: white;
   }
-  .hero_text{
+  /* .hero_text{
     float: left;
     width: 50%;
   }
@@ -114,19 +111,110 @@ header li {
     float: right;
     width: 50%;
     text-align: center;
-  }
+  } */
 .logo_main img{
   width: 30%;
 }
+
+.nav_mu a {
+    color: white;
+    font-family: roboto;
+}
+.fas{
+margin-bottom: 20px;
+}
 @media screen and (max-width:500px){
+.logo{margin-left: 15px;}
+  #closebtn {
+    width: 50px;
+    height: 50px;
+    background: none;
+    color: white;
+}
+nav span.icon {
+    position: absolute;
+    right: 0;
+    top: 10;
+}
+span.icon {
+    /* background-color: orange; */
+    box-sizing: border-box;
+    font-size: 29px;
+    /* margin-top: 10px; */
+    margin-right: 20px;
+    /* padding: 10px; */
+}
+a:link {
+    /* color: White!important; */
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    color: white !important;
+}
+.overlay li {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    letter-spacing: 2px;
+    line-height: 150%;
+}
+.nav_mu a {
+    color: white;
+    font-family: roboto;
+}
+.logo img {
+    width: 50%;
+}
 
 }
 @media screen and (min-width:501px) and (max-width:768px){
-
+  .icon {
+      display: none;
+  }
 }
 @media screen and (min-width:769px) and (max-width:1200px){
-
+  .icon {
+      display: none;
+  }
+  header li {
+      float: left;
+    }
 }
 @media screen and (min-width:1201px){
-
+  .icon {
+      display: none;
+  }
+  nav{
+    float: right;
+  }
+  nav li{
+    float: left;
+  }
+  header .menu {
+    clear: none;
+    max-height: none;
+  }
+  header li {
+      float: left;
+    }
 }
