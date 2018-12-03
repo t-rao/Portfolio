@@ -47,7 +47,7 @@ header{
     background-position: 50%;
     background-size: cover;
     /* background-color: red; */
-    min-height: 604px;
+    min-height: 804px;
 }
 .hero_image_inner{
   width: 100%;
@@ -112,9 +112,7 @@ header h1{
     width: 50%;
     text-align: center;
   } */
-.logo_main img{
-  width: 30%;
-}
+
 
 .nav_mu a {
     color: white;
@@ -122,6 +120,14 @@ header h1{
 }
 .fas{
 margin-bottom: 20px;
+}
+.hero_text h1{
+  font-family: Rajdhani;
+  font-size: 56px;
+  font-weight: 600;
+}
+.hero_text h1, h4{
+color: white;
 }
 @media screen and (max-width:500px){
 .logo{margin-left: 15px;}
@@ -185,7 +191,9 @@ a:link {
 .logo img {
     width: 50%;
 }
-
+.logo_main img{
+  width: 25%;
+}
 }
 @media screen and (min-width:501px) and (max-width:768px){
   .icon {
@@ -217,4 +225,76 @@ a:link {
   header li {
       float: left;
     }
+    .logo_main img{
+      width: 45%;
+    }
+    .hero_text{
+        padding-top: 120px;
+    }
+    .hero_text h1{
+      font-family: Rajdhani;
+      font-size: 70px;
+      font-weight: 600;
+    }
+    .bootLp{
+      height: 800px;
+      background: linear-gradient(to bottom right, #5AB78D , #86D1DB);
+    }
+    .project_row {
+    height: 800px;
+    }
+    .left_side {
+    display: flex;
+    text-align: right;
+    }
+    .right_side {
+    display: flex;
+    z-index: 1;
+}
+.light {
+    color: white;
+    z-index: 100;
+}
+.bootLp img {
+    height: 60%;
+    width: auto;
+    transform: translatex(-12vw);
+}
+.proj_img {
+    margin: auto;
+    width: 100%;
+}
+.proj_desc {
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    margin-left: 0;
+    padding: 80px;
+}
+.proj_title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.proj_bio {
+    font-family: "Lato", sans-serif;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.proj_dates {
+    font-family: "BebasNeueRegular", sans-serif;
+    opacity: 0.6;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 80px;
+    letter-spacing: 0.5px;
+}
+.proj_button {
+    font-family: "BebasNeueRegular", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
 }

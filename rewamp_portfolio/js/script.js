@@ -3,11 +3,13 @@ $(window).on("scroll", function() {
         $(".header").addClass("active");
         $(".logo img").attr("src", "images/logo_black.png");
         $(".icon a").css("color", "black");
+        $(".nav_mu a").css("color", "black");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
        $(".header").removeClass("active");
        $(".logo img").attr("src", "images/logo_white_text.png");
        $(".icon a").css("color", "White");
+       $(".nav_mu a").css("color", "White");
 
     }
 });
