@@ -43,10 +43,11 @@ header{
   padding-bottom: 10px; */
 }
 .hero_image{
-    background-image: url(../images/bg.jpg);
-    background-position: 50%;
-    background-size: cover;
-    /* background-color: red; */
+
+    background-image:url(../images/hero_illustration.png),url(../images/background_second.jpg);
+    background-position: right Top, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: 900px, cover;
     min-height: 804px;
 }
 .hero_image_inner{
@@ -125,6 +126,12 @@ margin-bottom: 20px;
   font-family: Rajdhani;
   font-size: 56px;
   font-weight: 600;
+  border-bottom: 2px solid;
+width: 437px;
+}
+.hero_text h4{
+  font-family: Rajdhani;
+  font-size: 20px;
 }
 .hero_text h1, h4{
 color: white;
@@ -192,17 +199,54 @@ a:link {
     width: 50%;
 }
 .logo_main img{
-  width: 25%;
+  width: 100%;
+}
+.hero_text h1 {
+    font-family: Rajdhani;
+    font-size: 36px;
+    font-weight: 600;
+    border-bottom: 2px solid;
+    width: 90%;
+}
+.hero_image {
+    background-image: url(../images/hero_illustration.png),url(../images/background_second.jpg);
+    background-position: -90px bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: 536px, cover;
+    min-height: 804px;
 }
 }
 @media screen and (min-width:501px) and (max-width:768px){
   .icon {
       display: none;
   }
+  nav{
+    float: right;
+  }
+  nav li{
+    float: left;
+  }
+  header .menu {
+    clear: none;
+    max-height: none;
+  }
+  header li {
+      float: left;
+    }
 }
 @media screen and (min-width:769px) and (max-width:1200px){
   .icon {
       display: none;
+  }
+  nav{
+    float: right;
+  }
+  nav li{
+    float: left;
+  }
+  header .menu {
+    clear: none;
+    max-height: none;
   }
   header li {
       float: left;
