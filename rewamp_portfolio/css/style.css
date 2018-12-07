@@ -166,6 +166,9 @@ list-style: none;
 .footer_icon li{
   float: left;
 }
+footer a{
+color: #414141;
+}
 .copy_r{
 clear: both;
 }
@@ -193,7 +196,7 @@ clear: both;
     right: 0;
     top: 10;
   }
-  nav span.icon a{ color: white;}
+
   span.icon {
     /* background-color: orange; */
     box-sizing: border-box;
@@ -202,8 +205,8 @@ clear: both;
     margin-right: 20px;
     /* padding: 10px; */
   }
-  a:link {
-    /* color: White!important; */
+  .icon a:link {
+    color: White;
   }
   .overlay {
     height: 100%;
