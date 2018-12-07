@@ -193,7 +193,7 @@ clear: both;
     right: 0;
     top: 10;
   }
-  nav span.icon a{ color: white};
+  nav span.icon a{ color: white;}
   span.icon {
     /* background-color: orange; */
     box-sizing: border-box;
