@@ -9,28 +9,24 @@ $(window).on("scroll", function() {
     $(".header").removeClass("active");
     $(".logo img").attr("src", "images/logo_white_text.png");
     $(".icon a").css("color", "White");
-      $(".nav_mu a").css("color", "White");
+    $(".nav_mu a").css("color", "White");
 
   }
-  function myFunction(x) {
-    if (x.matches) { // If media query matches
-      $(".nav_mu a").css("color", "White");
-    } else {
-      console.log("<500")
-    }
-  }
-
-  var x = window.matchMedia("(max-width: 500px)")
-  myFunction(x) // Call listener function at run time
-  x.addListener(myFunction) // Attach listener function on state changes
-
-
+  // function myFunction(x) {
+  //   if (x.matches) { // If media query matches
+  //     $(".nav_mu a").css("color", "White");
+  //   } else {
+  //     $(".nav_mu a").css("color", "black");
+  //   }
+  // }
+  //
+  // var x = window.matchMedia("(max-width: 500px)")
+  // myFunction(x) // Call listener function at run time
+  // x.addListener(myFunction) // Attach listener function on state changes
+  //
+  //
 
 });
-
-
-
-
 
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
