@@ -190,7 +190,7 @@ clear: both;
 .com{
   background-image: linear-gradient(#F77062,#FE5196);
 }
-.radix h2, .Glean h2{
+.radix h2, .Glean h2, .com h2{
 font-family: Rajdhani;
 font-weight: bold;
 color: white;
