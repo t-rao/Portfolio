@@ -1,32 +1,56 @@
 $(window).on("scroll", function() {
-  if ($(window).scrollTop() > 50) {
-    $(".header").addClass("active");
-    $(".logo img").attr("src", "images/logo_black.png");
-    $(".icon a").css("color", "black");
-    $(".nav_mu a").css("color", "black");
-  } else {
-    //remove the background property so it comes transparent again (defined in your css)
-    $(".header").removeClass("active");
-    $(".logo img").attr("src", "images/logo_white_text.png");
-    $(".icon a").css("color", "White");
-    $(".nav_mu a").css("color", "White");
 
+  function myFunction(x) {
+    if (x.matches) { // If media query matches
+      console.log("Hi");
+      if ($(window).scrollTop() > 50) {
+        $(".header").addClass("active");
+        $(".logo img").attr("src", "images/logo_black.png");
+        $(".icon a").css("color", "black");
+        $(".nav_mu a").css("color", "black");
+        $(".overlay").css("background", "White");
+        $("#closebtn").css("color", "black");
+      } else {
+        //remove the background property so it comes transparent again (defined in your css)
+        $(".header").removeClass("active");
+        $(".logo img").attr("src", "images/logo_white_text.png");
+        $(".icon a").css("color", "White");
+        $(".nav_mu a").css("color", "White");
+        $(".overlay").css("background", "black");
+        $("#closebtn").css("color", "white");
+
+      }
+    } else {
+      if ($(window).scrollTop() > 50) {
+        $(".header").addClass("active");
+        $(".logo img").attr("src", "images/logo_black.png");
+        $(".icon a").css("color", "black");
+        $(".nav_mu a").css("color", "black");
+        // $(".overlay").css("background", "White");
+        // $("#closebtn").css("color", "black");
+      } else {
+        //remove the background property so it comes transparent again (defined in your css)
+        $(".header").removeClass("active");
+        $(".logo img").attr("src", "images/logo_white_text.png");
+        $(".icon a").css("color", "White");
+        $(".nav_mu a").css("color", "White");
+        // $(".overlay").css("background", "black");
+        // $("#closebtn").css("color", "white");
+
+      }
+    }
   }
-  // function myFunction(x) {
-  //   if (x.matches) { // If media query matches
-  //     $(".nav_mu a").css("color", "White");
-  //   } else {
-  //     $(".nav_mu a").css("color", "black");
-  //   }
-  // }
-  //
-  // var x = window.matchMedia("(max-width: 500px)")
-  // myFunction(x) // Call listener function at run time
-  // x.addListener(myFunction) // Attach listener function on state changes
-  //
-  //
+
+  var x = window.matchMedia("(max-width: 500px)")
+
+  myFunction(x) // Call listener function at run time
+
+  x.addListener(myFunction) // Attach listener function on state changes
+
+
 
 });
+
 
 function openNav() {
   document.getElementById("myNav").style.width = "100%";

@@ -72,7 +72,6 @@ header {
 
 header ul {
   list-style: none;
-  overflow: hidden;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -109,7 +108,8 @@ header .menu-icon {
 
 .projects {
   min-height: 600px;
-  margin-top: 80px;
+/* margin-top: 80px; */
+/* margin-bottom: 80px; */
 }
 
 .contact {
@@ -153,13 +153,38 @@ footer {
   font-family: Rajdhani;
   font-size: 20px;
 }
+.card-title{
+  font-family: Rajdhani;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
 
 .hero_text h1, h4 {
   color: white;
 }
+.about, .projects, .contact{
+  margin-top: 60px;
+  padding-bottom: 120px;
+  font-family: Rajdhani;
+}
+.about p, .projects p, .contact p{
+font-weight: 500;
+font-size: 18px;
+}
+.about h3{
+font-size: 20px;
+font-family: Rajdhani;
+font-weight: 600;
+}
 .about h2, .projects h2, .contact h2{
   font-family: Rajdhani;
   font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 48px;
+  text-transform: uppercase;
 }
 .footer_icon{
 list-style: none;
@@ -174,12 +199,13 @@ color: #414141;
 clear: both;
 }
 .all_btn{
-  background-color: #F76B1C;
+  background-color: #ff792e;
   /* background-image: linear-gradient(to right, #FAD961 , #F76B1C); */
   border: none;
+  font-weight: 600!important;
 }
 .all_btn:hover{
-  background-color: white!important;
+  background-color:#e86013 ;
 }
 .radix{
   background-image: linear-gradient(#C5DE86,#A2C652);
@@ -195,6 +221,13 @@ font-family: Rajdhani;
 font-weight: bold;
 color: white;
 text-transform:uppercase;
+}
+
+.catch_text{
+  font-family: Rajdhani;
+  font-weight: 600!important;
+  font-size: 28px!important;
+  letter-spacing: 0.2px;
 }
 @media screen and (max-width:500px) {
   .logo {
@@ -737,6 +770,17 @@ width: 50px;
   color: white;
 }
 
+.projects{
+background: url(../images/background_capsle.png), url(../images/background_capsle_blured.png);
+background-position: -720px 100px, -700px 80px;
+background-repeat: no-repeat no-repeat;
+}
+.about{
+  background: url(../images/background_capsle.png), url(../images/background_capsle_blured.png);
+  background-position: 500px -420px,  480px -400px;
+  background-repeat: no-repeat no-repeat;
+}
+
 }
 
 @media screen and (min-width:1201px) {
@@ -746,14 +790,10 @@ width: 50px;
   nav {
     float: right;
   }
-  nav li {
-    float: left;
+  .menu{
+    width: 400px;
   }
-  header .menu {
-    clear: none;
-    max-height: none;
-  }
-  header li {
+  .menu  li {
     float: left;
   }
   .logo_main img {
@@ -950,6 +990,18 @@ width: 50px;
     color: white;
   }
 
-
+.project_title{
+padding-top: 150px;
+}
+.projects{
+background: url(../images/background_capsle.png), url(../images/background_capsle_blured.png);
+background-position: -620px 100px, -600px 80px;
+background-repeat: no-repeat no-repeat;
+}
+.about{
+  background: url(../images/background_capsle.png), url(../images/background_capsle_blured.png);
+  background-position: 600px -420px,  580px -400px;
+  background-repeat: no-repeat no-repeat;
+}
 
 }
