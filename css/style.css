@@ -473,8 +473,16 @@ width: 50px;
   border-bottom:2px solid white;
   width: 155px;
   margin-top: 30px;
+  color: White;
 }
 .vi_pro_link a:link{
+  color: white;
+}
+.vi_pro_link a:hover{
+  color: white;
+  text-decoration: none
+}
+.vi_pro_link a:visited{
   color: white;
 }
 
@@ -622,6 +630,13 @@ width: 50px;
 .vi_pro_link a:link{
   color: white;
 }
+.vi_pro_link a:visited{
+  color: white;
+}
+.vi_pro_link a:hover{
+  color: white;
+  text-decoration: none
+}
 
 
 }
@@ -767,6 +782,13 @@ width: 50px;
   margin-top: 30px;
 }
 .vi_pro_link a:link{
+  color: white;
+}
+.vi_pro_link a :hover{
+  color: white;
+  text-decoration: none
+}
+.vi_pro_link a:visited{
   color: white;
 }
 
@@ -988,6 +1010,13 @@ background-repeat: no-repeat no-repeat;
   }
   .vi_pro_link a:link{
     color: white;
+  }
+  .vi_pro_link a:visited{
+    color: white;
+  }
+  .vi_pro_link a:hover{
+    color: white;
+    text-decoration: none
   }
 
 .project_title{
