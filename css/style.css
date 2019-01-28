@@ -27,6 +27,12 @@ header {
   width: 60%;
 }
 
+.pro_link{
+  color: black!important;
+}
+.pro_link:hover{
+  text-decoration: none;
+}
 .header.active {
   background: #fff;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
